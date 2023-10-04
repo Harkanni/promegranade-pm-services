@@ -13,7 +13,7 @@ const Navigation = () => {
    return (
       <div>
          <NavBar sidebar={sidebar} handleSetSidebar={handleSetSidebar} />
-         {sidebar && <SideNavBar></SideNavBar>}
+         {sidebar && <SideNavBar sidebar={sidebar} handleSetSidebar={handleSetSidebar}></SideNavBar>}
       </div>
    )
 }
