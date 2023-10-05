@@ -56,7 +56,7 @@ const Counter: React.FC<CounterProps> = ({ from, to, extra }) => {
       initial={{ opacity: 0, scale: 0.1 }}
       animate={isInView ? { opacity: 1, scale: 1 } : {}}
       transition={{ duration: 0.5 }}
-      className='font-extrabold text-5xl text-[#b6c43f]'
+      className='font-extrabold text-5xl text-[#e7cb57]'
     />
   );
 };
